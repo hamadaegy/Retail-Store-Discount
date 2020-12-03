@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "c590b541-92f5-488c-beac-57b687d455a7",
+		"name": "Retail-Discount",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get-Bill",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"userType\":\"Ordinary\",\n\t\"bill\":{\n\t\t\"amount\":990\n\t}\n\t\n\t\n\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/retail",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"retail"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
